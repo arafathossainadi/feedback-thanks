@@ -1,0 +1,107 @@
+/*=====================================
+=            universal css            =
+=====================================*/
+
+@font-face{
+	src:url(../fonts/Helvetica.ttf);
+	font-family: "helv";
+}
+
+@font-face{
+	src: url(../fonts/Helvetica-Bold.ttf);
+	font-family: "helv-bold";
+}
+
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.bodybg{
+	background-color: #F1F3F5;
+}
+
+.hdr img{
+	max-width: 100%; 
+	display:block; 
+	height: auto;
+}
+
+.ftr img{
+	width: 100%;
+}
+/*================================
+=            body css            =
+================================*/
+
+
+.thank-you{
+	padding-top: 60px;
+	padding-bottom: 60px;
+	text-align: center;
+	color: #000000a6;
+	font-family: "helv";
+}
+
+.thank-you .stel-logo{
+	display: block;
+	margin: 0 auto;
+}
+
+.thank-you .ty-svg{
+	max-width: 100%;
+	width: 500px;
+	margin-top: 60px;
+}
+
+.thank-you p{
+	color: #000000;
+}
+
+.thank-you a{
+	text-decoration: none;
+}
+
+.contact-info{
+	text-align: center;
+	padding-top: 30px;
+	font-family: "helv";
+}
+
+.contact-info button{
+	padding: 10px;
+	font-size: 18px;
+	background-color: white;
+	cursor: pointer;
+	margin: 7px;
+}
+
+.contact-info i{
+	border:1px solid #0C1822;
+	background-color: #0C1822;
+	color:#F1F3F5;
+	padding: 7px;
+	border-radius: 3px;
+}
+
+.explore-btn{
+	margin-top: 30px;
+	padding: 15px;
+	font-size: 20px;
+    background-color: #F78222;
+    border: 2px solid #F78222;
+    color: #ffffff;
+}
+
+.explore-btn:focus{
+	outline: none;
+}
+
+.explore-btn:active{
+	background-color: #d06814;
+	border: 2px solid #d06814;
+	outline: none;
+}
+
+/*=====  End of body css  ======*/

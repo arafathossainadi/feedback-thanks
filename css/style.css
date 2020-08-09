@@ -92,6 +92,7 @@
     background-color: #F78222;
     border: 2px solid #F78222;
     color: #ffffff;
+    cursor: pointer;
 }
 
 .explore-btn:focus{
